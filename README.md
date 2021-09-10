@@ -7,7 +7,7 @@ For use with the DockerPi Sensor Hub
 - Eventually pushing to mysql_databases
 
 
-#For Interest
+# For Interest
 In regards to input devices:
 In order to collect larger numbers we must do a Bit Shift
 Consider that the numbers are communicated in bit form
