@@ -6,6 +6,12 @@ For use with the DockerPi Sensor Hub
 - Through to generating JSON outputs
 - Eventually pushing to mysql_databases
 
+# How to use
+1. With RPI switched off: install the HAT directly onto RPI
+2. Turn on rpi and connect via SSH
+3. Clone this Git repo to a folder
+4. To get it to "just work" - python docker_v1.py
+5. This will output the info you need!
 
 # For Interest
 In regards to input devices:
