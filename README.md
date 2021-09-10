@@ -1,6 +1,10 @@
 # sensor_hub
 DockerPi SensorHub Repo
 
+Source and Credit:
+https://wiki.52pi.com/index.php/DockerPi_Sensor_Hub_Development_Board_SKU:_EP-0106
+For the inital install allowing further development
+
 For use with the DockerPi Sensor Hub
 - Files include the evolutions of the system through simple in/out reading
 - Through to generating JSON outputs
