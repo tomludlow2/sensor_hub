@@ -1,4 +1,4 @@
-import smbus, os, socket
+import smbus, os, socket, json
 
 DEVICE_BUS = 1
 DEVICE_ADDR = 0x17
@@ -92,4 +92,4 @@ if sensorHubInput[HUMAN_DETECT] == 1 :
 else:
     snapshot["ir_detect"] = 0
 
-print snapshot
+print( json.dumps(snapshot, indent=4, sort_keys=True) )
