@@ -170,3 +170,4 @@ class docker_class:
         print("Info: Watched for " + str(duration) + "s - counted " + str(move_count) + " bits of movement")
         percentage_movement = move_count / (duration*5) * 100
         print("Info: Movement Percentage = " + str(percentage_movement) + "%")
+        return percentage_movement
